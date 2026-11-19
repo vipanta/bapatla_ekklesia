@@ -27,11 +27,11 @@ export const gallery: GalleryImage[] = [
     },
   },
   {
-    id: 'sunday-service',
-    file: '/images/church-service-1.webp',
+    id: 'Sabbath-service',
+    file: '/images/church-service-11.webp',
     w: 1200,
     h: 800,
-    caption: { en: 'Sunday service', te: 'ఆదివారం ఆరాధన' },
+    caption: { en: 'Sabbath service', te: 'ఆదివారం ఆరాధన' },
   },
   {
     id: 'room-in-the-morning',
