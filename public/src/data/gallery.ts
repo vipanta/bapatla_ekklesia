@@ -28,7 +28,7 @@ export const gallery: GalleryImage[] = [
   },
   {
     id: 'sunday-service',
-    file: '/images/church-service-10.jpg',
+    file: '/images/church-service-1.webp',
     w: 1200,
     h: 800,
     caption: { en: 'Sunday service', te: 'ఆదివారం ఆరాధన' },
