@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" width="400" height="560">
+  <!-- Starting cover for the title whose slug is payhip-dhkas.
+       A sun resting behind a hill: the day set apart.
+       To use your own picture: upload <slug>.webp into src/covers. -->
+  <rect width="400" height="560" fill="#123b3d"/>
+  <rect x="18" y="18" width="364" height="524" fill="none" stroke="#e2a13c" stroke-opacity=".45" stroke-width="1.5"/>
+  <circle cx="200" cy="250" r="54" fill="none" stroke="#e2a13c" stroke-opacity=".8" stroke-width="2"/>
+  <path d="M100 330h200" stroke="#faf7f0" stroke-opacity=".6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M60 320c60-70 140-70 200 0" fill="none" stroke="#faf7f0" stroke-opacity=".28" stroke-width="2"/>
+  <path d="M120 430h160" stroke="#e2a13c" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/>
+</svg>

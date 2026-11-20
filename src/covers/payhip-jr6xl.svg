@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" width="400" height="560">
+  <!-- Starting cover for the title whose slug is payhip-jr6xl.
+       A doorway open onto a rising light.
+       To use your own picture: upload <slug>.webp into src/covers. -->
+  <rect width="400" height="560" fill="#123b3d"/>
+  <rect x="18" y="18" width="364" height="524" fill="none" stroke="#e2a13c" stroke-opacity=".45" stroke-width="1.5"/>
+  <path d="M142 336V214a58 58 0 0 1 116 0v122" fill="none" stroke="#faf7f0" stroke-opacity=".6" stroke-width="2"/>
+  <path d="M200 316V214" stroke="#e2a13c" stroke-opacity=".7" stroke-width="2"/>
+  <path d="M168 292l32-46 32 46" fill="none" stroke="#faf7f0" stroke-opacity=".45" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M120 430h160" stroke="#e2a13c" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/>
+</svg>

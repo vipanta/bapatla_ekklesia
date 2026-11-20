@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" width="400" height="560">
+  <!-- Starting cover for the title whose slug is payhip-mtoal.
+       Two leaves inside a ring: the garden in Telugu.
+       To use your own picture: upload <slug>.webp into src/covers. -->
+  <rect width="400" height="560" fill="#123b3d"/>
+  <rect x="18" y="18" width="364" height="524" fill="none" stroke="#e2a13c" stroke-opacity=".45" stroke-width="1.5"/>
+  <circle cx="200" cy="250" r="88" fill="none" stroke="#faf7f0" stroke-opacity=".3" stroke-width="2"/>
+  <path d="M198 312c-32-14-42-48-32-82 28 10 40 46 32 82z" fill="#e2a13c"/>
+  <path d="M202 312c32-14 42-48 32-82-28 10-40 46-32 82z" fill="none" stroke="#faf7f0" stroke-opacity=".55" stroke-width="2"/>
+  <path d="M120 430h160" stroke="#e2a13c" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/>
+</svg>

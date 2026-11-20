@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" width="400" height="560">
+  <!-- Starting cover for the title whose slug is payhip-uwasp.
+       An arch of seven days with the first one kept.
+       To use your own picture: upload <slug>.webp into src/covers. -->
+  <rect width="400" height="560" fill="#123b3d"/>
+  <rect x="18" y="18" width="364" height="524" fill="none" stroke="#e2a13c" stroke-opacity=".45" stroke-width="1.5"/>
+  <path d="M70 268c26-58 72-88 130-88s104 30 130 88" fill="none" stroke="#faf7f0" stroke-opacity=".26" stroke-width="2"/>
+  <g fill="none" stroke="#faf7f0" stroke-opacity=".6" stroke-width="2">
+    <circle cx="128" cy="292" r="11"/>
+    <circle cx="163" cy="292" r="11"/>
+    <circle cx="198" cy="292" r="11"/>
+    <circle cx="233" cy="292" r="11"/>
+    <circle cx="268" cy="292" r="11"/>
+    <circle cx="303" cy="292" r="11"/>
+  </g>
+  <circle cx="93" cy="292" r="11" fill="#e2a13c"/>
+  <circle cx="93" cy="292" r="20" fill="none" stroke="#e2a13c" stroke-opacity=".5" stroke-width="1.5"/>
+  <path d="M120 430h160" stroke="#e2a13c" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/>
+</svg>

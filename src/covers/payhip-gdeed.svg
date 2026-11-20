@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" width="400" height="560">
+  <!-- Starting cover for the title whose slug is payhip-gdeed.
+       A key upright in an arch: the same authority, in English.
+       To use your own picture: upload <slug>.webp into src/covers. -->
+  <rect width="400" height="560" fill="#123b3d"/>
+  <rect x="18" y="18" width="364" height="524" fill="none" stroke="#e2a13c" stroke-opacity=".45" stroke-width="1.5"/>
+  <path d="M136 320V206a64 64 0 0 1 128 0v114" fill="none" stroke="#faf7f0" stroke-opacity=".45" stroke-width="2"/>
+  <circle cx="200" cy="252" r="26" fill="none" stroke="#e2a13c" stroke-width="3"/>
+  <path d="M200 278v78M200 330h26M200 350h18" stroke="#e2a13c" stroke-width="3" stroke-linecap="round"/>
+  <path d="M120 430h160" stroke="#e2a13c" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/>
+</svg>

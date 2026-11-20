@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" width="400" height="560">
+  <!-- Starting cover for the title whose slug is payhip-avdog.
+       A crown of seven points above a staff: the day blessed and kept.
+       To use your own picture: upload <slug>.webp into src/covers. -->
+  <rect width="400" height="560" fill="#123b3d"/>
+  <rect x="18" y="18" width="364" height="524" fill="none" stroke="#e2a13c" stroke-opacity=".45" stroke-width="1.5"/>
+  <path d="M120 300l20-62 30 40 30-58 30 58 30-40 20 62z" fill="none" stroke="#e2a13c" stroke-opacity=".85" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M200 300v120" stroke="#faf7f0" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/>
+  <path d="M120 430h160" stroke="#e2a13c" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/>
+</svg>
