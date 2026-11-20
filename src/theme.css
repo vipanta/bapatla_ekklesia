@@ -1,0 +1,104 @@
+/* The token contract, and the whole of this site's art direction: :root holds
+   the values, @theme inline turns them into utilities. One colour scheme,
+   deliberately — a design is light or it is dark. */
+:root {
+  /* Warm ivory ground, near-black ink, deep teal brand, saffron marker. */
+  --background: oklch(0.977 0.008 85);
+  --foreground: oklch(0.24 0.014 60);
+  --card: oklch(0.995 0.004 90);
+  --card-foreground: oklch(0.24 0.014 60);
+  --popover: oklch(0.995 0.004 90);
+  --popover-foreground: oklch(0.24 0.014 60);
+  --primary: oklch(0.36 0.062 190);
+  --primary-foreground: oklch(0.975 0.01 90);
+  --secondary: oklch(0.94 0.012 85);
+  --secondary-foreground: oklch(0.28 0.02 70);
+  --muted: oklch(0.945 0.01 85);
+  --muted-foreground: oklch(0.46 0.018 70);
+  --accent: oklch(0.86 0.012 85);
+  --accent-foreground: oklch(0.24 0.014 60);
+  --destructive: oklch(0.5 0.16 27);
+  --border: oklch(0.885 0.012 85);
+  --input: oklch(0.885 0.012 85);
+  --ring: oklch(0.36 0.062 190);
+
+  /* Saffron is the marker colour and nothing else: the featured label,
+     small rules, list bullets. Never body text. */
+  --saffron: oklch(0.74 0.145 72);
+  --saffron-deep: oklch(0.52 0.12 62);
+  /* Ink for text on a saffron ground: the label and nothing else. */
+  --saffron-ink: oklch(0.27 0.05 60);
+
+  /* Deep teal owns the footer and the doctrine band. */
+  --ink-deep: oklch(0.28 0.052 192);
+  --ink-deep-foreground: oklch(0.955 0.012 90);
+  --ink-deep-muted: oklch(0.8 0.028 190);
+
+  --font-heading: "Lora", ui-serif, Georgia, serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-label: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-telugu: "Noto Sans Telugu", "Lora", ui-sans-serif, sans-serif;
+
+  --radius: 0.375rem;
+  --radius-panel: min(var(--radius), 1.25rem);
+  --shadow: 0 1px 2px oklch(0.24 0.014 60 / 0.06), 0 12px 32px oklch(0.24 0.014 60 / 0.09);
+
+  --hero-size: clamp(2.4rem, 1.4rem + 4.2vw, 4.4rem);
+  --hero-mobile: clamp(2.1rem, 8.5vw, 3rem);
+  --heading-tracking: -0.015em;
+  --heading-line: 1.1;
+  --heading-weight: 600;
+  --body-size: 1rem;
+  --body-line: 1.7;
+
+  --content-width: 1180px;
+  --text-width: 62ch;
+  --gutter: clamp(1.25rem, 4vw, 3rem);
+  --section-space: 4.5rem;
+  --layout-gap: 2rem;
+  --motion-fast: 180ms;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-saffron: var(--saffron);
+  --color-saffron-deep: var(--saffron-deep);
+  --color-saffron-ink: var(--saffron-ink);
+  --color-ink-deep: var(--ink-deep);
+  --color-ink-deep-foreground: var(--ink-deep-foreground);
+  --color-ink-deep-muted: var(--ink-deep-muted);
+
+  --font-sans: var(--font-body);
+  --font-display: var(--font-heading);
+  --font-label: var(--font-label);
+  --font-telugu: var(--font-telugu);
+  --font-mono: ui-monospace, SFMono-Regular, monospace;
+
+  --radius-sm: max(0px, calc(var(--radius-panel) - 3px));
+  --radius-md: var(--radius);
+  --radius-lg: var(--radius-panel);
+  --radius-xl: calc(var(--radius-panel) + 4px);
+
+  --shadow-raised: var(--shadow);
+  --spacing-gutter: var(--gutter);
+  --spacing-section: var(--section-space);
+  --spacing-layout: var(--layout-gap);
+  --container-content: var(--content-width);
+}
