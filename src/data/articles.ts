@@ -15,6 +15,17 @@ export type Article = {
 }
 
 export const articles: Article[] = [
+  
+  {
+    slug: 'వ్రాయబడియున్నది',
+    date: '2026-20-11',
+    title: { en: 'It was written', te: 'వ్రాయబడియున్నది' },
+    summary: {
+      en: 'It was written means that it was commanded in the law of God. It's a commandment of God',
+      te: 'ఇది దేవుని ధర్మశాస్త్రంలో ఆజ్ఞాపించబడిందని దీని అర్థం. ఇది దేవుని ఆజ్ఞ',
+    },
+}
+  
   {
     slug: 'the-lamp-kept-burning',
     date: '2026-02-08',
